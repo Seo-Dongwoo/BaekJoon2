@@ -32,5 +32,4 @@ for i in graph:
             exit(0)
 
     great_tomato = max(great_tomato, max(i))
-
 print(great_tomato-1)
