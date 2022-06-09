@@ -1,7 +1,8 @@
 from collections import  deque
 import sys
-dx = [-1,1,2,2,1,-1,-2,-2]
-dy = [2,2,1,-1,-2,-2,-1,-1]
+dx = [1, 1, -1, -1, 2, 2, -2, -2]
+dy = [2, -2, 2, -2, 1, -1, 1, -1]
+
 
 def bfs(sx,sy,ax,ay):
     queue = deque()
