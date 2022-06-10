@@ -1,4 +1,4 @@
-from collections import  deque
+from collections import deque
 import sys
 N = int(sys.stdin.readline())
 graph = []
